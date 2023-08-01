@@ -28,13 +28,22 @@
         "tsConfigPath": "apps/m2/tsconfig.app.json"
       }
     },
-    "server": {
+    "config": {
       "type": "library",
-      "root": "libs/server",
+      "root": "libs/server/config",
       "entryFile": "index",
-      "sourceRoot": "libs/server/src",
+      "sourceRoot": "libs/server/config/src",
       "compilerOptions": {
-        "tsConfigPath": "libs/server/tsconfig.lib.json"
+        "tsConfigPath": "libs/server/config/tsconfig.lib.json"
+      }
+    },
+    "entities": {
+      "type": "library",
+      "root": "libs/server/entities",
+      "entryFile": "index",
+      "sourceRoot": "libs/server/entities/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/server/entities/tsconfig.lib.json"
       }
     }
   }

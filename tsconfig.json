@@ -18,11 +18,17 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@app/server": [
-        "libs/server/src"
+      "@app/server/config": [
+        "libs/server/config/src"
       ],
-      "@app/server/*": [
-        "libs/server/src/*"
+      "@app/server/config/*": [
+        "libs/server/config/src/*"
+      ],
+      "@app/server/entities": [
+        "libs/server/entities/src"
+      ],
+      "@app/server/entities/*": [
+        "libs/server/entities/src/*"
       ]
     }
   }
