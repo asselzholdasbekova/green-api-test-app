@@ -29,6 +29,12 @@
       ],
       "@app/server/entities/*": [
         "libs/server/entities/src/*"
+      ],
+      "@app/server/dto": [
+        "libs/server/dto/src"
+      ],
+      "@app/server/dto/*": [
+        "libs/server/dto/src/*"
       ]
     }
   }

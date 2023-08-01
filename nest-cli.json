@@ -45,6 +45,15 @@
       "compilerOptions": {
         "tsConfigPath": "libs/server/entities/tsconfig.lib.json"
       }
+    },
+    "dto": {
+      "type": "library",
+      "root": "libs/server/dto",
+      "entryFile": "index",
+      "sourceRoot": "libs/server/dto/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/server/dto/tsconfig.lib.json"
+      }
     }
   }
 }
